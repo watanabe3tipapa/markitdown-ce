@@ -1,0 +1,34 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ main ] # mainブランチへのpushをトリガーとする
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12' # 使用するPythonのバージョンを指定
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt # 必要なパッケージをインストール
+
+      - name: Build with Flask #Flaskアプリケーションを実行し、HTMLを生成
+        run: |
+           python your_flask_app.py # Flaskアプリケーションのエントリポイントを指定
+           mkdir public #公開するディレクトリを作成
+           mv templates/* public # 生成されたHTMLファイルをpublicディレクトリに移動。必要に応じて変更
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # GitHub Pagesで使用するブランチ。通常はgh-pages
+          folder: public # 公開するフォルダを指定
