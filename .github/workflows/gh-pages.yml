@@ -22,7 +22,7 @@ jobs:
 
       - name: Build with Flask #Flaskアプリケーションを実行し、HTMLを生成
         run: |
-           python your_flask_app.py # Flaskアプリケーションのエントリポイントを指定
+           python app.py # Flaskアプリケーションのエントリポイントを指定
            mkdir public #公開するディレクトリを作成
            mv templates/* public # 生成されたHTMLファイルをpublicディレクトリに移動。必要に応じて変更
 
