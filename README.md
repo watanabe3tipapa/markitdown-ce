@@ -1,6 +1,6 @@
 # 📂 markitdown-ce
 
-## Microsoft Office フォーマットを マークダウンファイルに変換します
+## Microsoft Office ドキュメントを マークダウンファイルに変換します
 
 ### ⚙️ *ローカルでの使い方*
 
