@@ -10,8 +10,16 @@
 - markitdown  
   
 2. このリポジトリをクローンしてください（詳細省略）
+
+Windowsで使用する場合
 3. ワーキングディレクトリで Python app.py を実行
 4. ブラウザで http://localhost:5000/ にアクセス
+
+macOSで使用する場合
+3. ワーキングディレクトリで Python app-mac.py を実行
+4. ブラウザで http://localhost:5555/ にアクセス
+
+💡 macOSはAirPlayなどで使用しているポート5000番との干渉を避けるためです
 
 ## 🚀
 
