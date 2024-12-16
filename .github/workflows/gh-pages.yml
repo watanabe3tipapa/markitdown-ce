@@ -22,9 +22,9 @@ jobs:
 
       - name: Build with Flask #Flaskアプリケーションを実行し、HTMLを生成
         run: |
-           python app.py # Flaskアプリケーションのエントリポイントを指定
+           python server.py # Flaskアプリケーションのエントリポイントを指定
            mkdir public #公開するディレクトリを作成
-           mv templates/* public # 生成されたHTMLファイルをpublicディレクトリに移動。必要に応じて変更
+           # mv templates/* public # 生成されたHTMLファイルをpublicディレクトリに移動。必要に応じて変更
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
