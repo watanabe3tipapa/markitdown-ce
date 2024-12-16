@@ -23,8 +23,17 @@
 
 ===
 
+### 📽️ 補足説明（スライド）
+
+
+[Windowsでの使い方](https://docs.google.com/presentation/d/1Pz1-PwoHFne8_V4mQUMmvZhKjJ5AxSDNuJMUWfUsEqU/edit?usp=sharing)
+
+
+===
+
 ⚓️ ライセンスは　MIT です。
 
 ===
 
 .&- @toolsmith# markitdown-ce
+
