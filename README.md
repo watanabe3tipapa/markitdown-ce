@@ -35,6 +35,9 @@ macOSで使用する場合
 
 [Windowsでの使い方](https://docs.google.com/presentation/d/e/2PACX-1vTRfpQqMJwOnIXo3CkFWh1v-aMVsH7JdDiaangU0wrZ_8mQHw1VSmWABBno9BCdyGlX3Tw7FXzKEwQQ/pub?start=true&loop=false&delayms=3000)
 
+[macOSでの使い方](https://docs.google.com/presentation/d/e/2PACX-1vTO8aVfIsTfUJhmIJUGmDKja_W7-bSpcjrI5bAGMLJ0mZzr1lExGxUq0sQEtHNWy_672wXPeBeINf5n/pub?start=false&loop=false&delayms=3000)
+
+
 ===
 
 ⚓️ ライセンスは　MIT です。
