@@ -25,9 +25,7 @@
 
 ### 📽️ 補足説明（スライド）
 
-
-[Windowsでの使い方](https://docs.google.com/presentation/d/1Pz1-PwoHFne8_V4mQUMmvZhKjJ5AxSDNuJMUWfUsEqU/edit?usp=sharing)
-
+[Windowsでの使い方](https://docs.google.com/presentation/d/e/2PACX-1vTRfpQqMJwOnIXo3CkFWh1v-aMVsH7JdDiaangU0wrZ_8mQHw1VSmWABBno9BCdyGlX3Tw7FXzKEwQQ/pub?start=true&loop=false&delayms=3000)
 
 ===
 
